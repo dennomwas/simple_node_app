@@ -5,7 +5,7 @@ const http = require('http');
 
 // local imports
 const printMessage = require('./print.js');
-const PrintError = require('./printerrors.js');
+const PrintError = require('./printerror.js');
 
 const getProfile = username => {
     try {
