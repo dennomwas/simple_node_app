@@ -3,4 +3,4 @@ const PrintError = error => {
     console.error(error.message);
 }
 
-export const errorReport = PrintError;
+module.exports.errorReport = PrintError;

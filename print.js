@@ -5,4 +5,4 @@ const printMessage = (username, badgeCount, point) => {
     console.log(message);
 }
 
-export const print = printMessage;
+module.exports.print = printMessage;

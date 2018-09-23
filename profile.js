@@ -7,7 +7,7 @@ const http = require('http');
 const printMessage = require('./print.js');
 const PrintError = require('./printerrors.js');
 
-const get = username => {
+const getProfile = username => {
     try {
         // connect to teamtreehouse api url(https://teamtreehouse.com/dennismwangi2.json)
         const request = https.get(`https://teamtreehouse.com/${username}.json`, response => {
@@ -40,4 +40,4 @@ const get = username => {
     }
 } // end getProfile
 
-module.exports.get = get;
+module.exports.get = getProfile;
